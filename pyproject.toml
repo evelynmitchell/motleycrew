@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "motleycrew"
-version = "0.2.3"
+version = "0.2.2"
 description = "A lightweight agent interaction framework."
 authors = ["MotleyCrew <github@motleycrew.ai>"]
 readme = "README.md"
@@ -11,10 +11,12 @@ langchain = "^0.3"
 langchain-experimental = "*"
 langchain-openai = "*"
 python-dotenv = "^1.0.0"
-kuzu = "^0.4.0"
+kuzu = "^0.4.2"
 cloudpickle = "^3.0.0"
 platformdirs = "^4.2.1"
 pydantic = "^2.7.1"
+duckduckgo-search = "5.3.0b4"
+lunary = "*"
 
 [tool.poetry.group.dev.dependencies]
 black = "^24.2.0"
